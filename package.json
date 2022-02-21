@@ -1,9 +1,10 @@
 {
   "name": "@jackbuehner/packagestest01",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "release": "standard-version",
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jackbuehner/packagestest01/issues"
   },
-  "homepage": "https://github.com/jackbuehner/packagestest01#readme"
+  "homepage": "https://github.com/jackbuehner/packagestest01#readme",
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
