@@ -1,11 +1,14 @@
 {
   "name": "@jackbuehner/packagestest01",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
     "test": "echo \"Error: no test specified\""
+  },
+  "standard-version": {
+    "posttag": "git push --follow-tags origin"
   },
   "repository": {
     "type": "git",
